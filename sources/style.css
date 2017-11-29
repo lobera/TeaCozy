@@ -16,12 +16,11 @@ header{
   border-bottom: 1px solid seashell;
   align-items: center;
   background-color: black;
+  top: 0px;
 }
-logo{
+img{
   padding-left: 10px;
   height: 50px;
-  align-items: center;
-  justify-content: center;
 }
 nav{
   flex-grow: 1;
@@ -32,7 +31,7 @@ a{
   padding-right: 15px;
   color: seashell;
 }
-/*Conten*/
+/*Mission*/
 .landing{
   display: flex;
   justify-content: center;
@@ -48,4 +47,23 @@ a{
   text-align: center;
   background-color: black;
   width: 100%;
+}
+/*Teas*/
+.featured{
+  padding-top: 70px;
+}
+.tea img{
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding-bottom: 10px;
+}
+.tea{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 300px;
+  padding: 20px 10px;
 }
